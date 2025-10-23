@@ -1,0 +1,2 @@
+# Ignore all NumPy binary files
+*.npz
