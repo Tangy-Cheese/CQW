@@ -1,6 +1,6 @@
 #! /bin/bash
 
-#SBATCH --job-name=1D_participation
+#SBATCH --job-name=1D_PV
 #SBATCH --output=/storage/physics/phugcx/output_%j.log
 #SBATCH --error=/storage/physics/phugcx/error_%j.log
 #SBATCH --time=02:00:00
