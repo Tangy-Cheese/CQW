@@ -3,7 +3,7 @@
 These codes were originally used for HPC clusters to utilise parallel processing. This directory contains some of the scripts used to run the source code. The codes can be run locally but make sure some of the paramaters are adjusted sensibly.
 
 ## Usage
-1. Navigate to the right directory eg 
+1. Navigate to the right directory: eg. 
    ```bash 
     .../HPC_jobs/1D_jobs/
     ```
