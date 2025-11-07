@@ -77,5 +77,5 @@ def plot_1d_probability(prob_file, t_target=100):
     plt.show()
 
 if __name__=="__main__":
-    prob_file = r"aggregated_1D_probabilityFINAL.npz"
-    plot_1d_probability(prob_file, t_target=100)
+    directory = r"../../output/data/" #unfinished
+    plot_1d_probability(directory, t_target=100)
