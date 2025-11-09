@@ -6,7 +6,7 @@ import random
 # Load data from CSV file
 df = pd.read_csv('../../output/data/1D_PV.csv')
 
-time_steps = df.columns[1:]
+time_steps = df.columns[1:-1]
 list(time_steps)
 
 t_dim = len(time_steps)
@@ -14,7 +14,7 @@ t_dim = len(time_steps)
 colors = [f"#{random.randint(0, 0xFFFFFF):06x}" for _ in range(t_dim)]
 
 # Number of realizations (for error calculation)
-j = 10
+j = df["j"].iloc[0]
 
 legend_entries = []
 
@@ -44,5 +44,6 @@ plt.minorticks_on()
 plt.tick_params(which='minor', direction='in', length=3, width=0.8, 
                 bottom=True, top=True, left=True, right=True)  # Minor ticks on all sides
 
+plt.title(f"Occupation of space as function of disorder strength for {j} realizations")
 # Show plot
 plt.show()
