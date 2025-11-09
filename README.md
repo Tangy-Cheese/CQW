@@ -12,7 +12,7 @@ Coined-Quantum-Walks/
 │   │   ├── run_1d_example.py
 │   │   ├── 1d_ee.py         # Entanglement entropy scripts
 │   │   ├── 1d_fidelity.py   # State fidelity scripts
-│   │   └── 1d_pv.py         # Participation value scripts
+│   │   └── 1D_PV.py         # Participation value scripts
 │   ├── 2D_runs/             # 2D quantum walk runs
 │   │   ├── run_2d_example.py
 │   │   ├── 2d_ee.py
