@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from numba import prange, njit
 
 # Parameters
 time_steps = [20, 40, 60, 80, 100]
